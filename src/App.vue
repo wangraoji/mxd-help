@@ -1,15 +1,15 @@
 <template>
-  <div id="app">
-    <el-container>
+  <div id="app" class="h100">
+    <el-container class="h100">
       <el-header>
         <MHeader/>
       </el-header>
       <el-container>
-        <el-aside width="200px">Aside</el-aside>
-        <el-main>Main</el-main>
+        <el-main>
+          <router-view/>
+        </el-main>
       </el-container>
     </el-container>
-    <!-- <router-view/> -->
   </div>
 </template>
 <script lang="ts">
@@ -23,5 +23,4 @@ import { MHeader } from "@/components";
 export default class App extends Vue {}
 </script>
 <style lang="scss">
-
 </style>

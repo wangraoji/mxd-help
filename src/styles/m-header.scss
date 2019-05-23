@@ -9,4 +9,12 @@
     background: #2383EB;
     color: #BAD7F8;
     cursor: default;
+    .title {
+        font-size: 16px;
+        text-align: center;
+        span {
+            cursor: pointer;
+            margin-left: 20px;
+        }
+    }
 }

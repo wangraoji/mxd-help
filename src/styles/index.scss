@@ -4,9 +4,31 @@
     margin: 0;
 }
 
+html,
 body {
     font-family: "Avenir", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 14px;
+    height: 100%;
+}
+
+img {
+    display: block;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.fl {
+    float: left;
+}
+
+.mb-10{
+    margin-bottom: 10px;
 }
