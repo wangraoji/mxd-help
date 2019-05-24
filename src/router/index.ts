@@ -23,6 +23,46 @@ export default new Router({
       name: 'linkJueseka',
       component: () => import('@/views/LinkJueseka.vue')
     },
+    {
+      path: '/xrxqm',
+      name: 'xrxqm',
+      component: () => import('@/views/Xrxqm.vue')
+    },
+    {
+      path: '/dbxl',
+      name: 'dbxl',
+      component: () => import('@/views/Dbxl.vue')
+    },
+    {
+      path: '/wssx',
+      name: 'wssx',
+      component: () => import('@/views/Wssx.vue')
+    },
+    {
+      path: '/xqn1',
+      name: 'xqn1',
+      component: () => import('@/views/Xqn1.vue')
+    },
+    {
+      path: '/xqn2',
+      name: 'xqn2',
+      component: () => import('@/views/Xqn2.vue')
+    },
+    {
+      path: '/phgl',
+      name: 'phgl',
+      component: () => import('@/views/Phgl.vue')
+    },
+    {
+      path: '/jhgl',
+      name: 'jhgl',
+      component: () => import('@/views/Jhgl.vue')
+    },
+    {
+      path: '/fjzj',
+      name: 'fjzj',
+      component: () => import('@/views/Fjzj.vue')
+    },
     // {
     //   path: '/about',
     //   name: 'about',
